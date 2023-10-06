@@ -10,7 +10,3 @@ function render(doc: any){
     
 }   
 
-function renderw(doc){
-    console.log(doc);
-    
-}

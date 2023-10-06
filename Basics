@@ -35,3 +35,14 @@ It is a fixed length array and each element has a paticular type
 //Used in generally in cases where we use key value pairs or something like that 
 
 let user: [number,string] = [1,'Shivam'];
+
+Enums 
+A list of related constants 
+
+const small = 1;
+const medium = 2;
+const large = 3;
+
+By using enumns we can do it in the following way -
+enum Size = {Small,Medium,Large};
+We can explicitly mention the value of each 
