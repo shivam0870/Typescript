@@ -1,0 +1,27 @@
+Introduction to typescript 
+
+What is it, why do we need it 
+
+A programming language to address shortcomings of Javascript 
+Every js file is ts file and js is subset of ts 
+
+
+Benifits: 
+Static typing 
+Code completion 
+Shorthand notations 
+Tow types of programming languages ->   
+
+Statically Typed                         Dynamically Typed 
+Ex: C++,C#,Java                         Ex: Javascript, Pyhon, Ruby
+
+int num = 10;                           let number = 10;
+num = "a" -> wrong                       number = "a"
+
+Drawbacks ->
+
+Complications 
+ 
+.ts -> Compiler -> .js
+
+Simple Projects -> Javascript and for Medium to large projects will be used to Typescript 
