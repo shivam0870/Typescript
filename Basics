@@ -46,3 +46,6 @@ const large = 3;
 By using enumns we can do it in the following way -
 enum Size = {Small,Medium,Large};
 We can explicitly mention the value of each 
+
+Functions 
+

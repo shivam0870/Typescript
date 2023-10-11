@@ -1,12 +1,38 @@
 let sales = 1234_567_89;
-let course = 'okay';
-let is_published = true;
-let level;
+interface Person {
+    name : string;
+    age : number | string;
+}
 
-//The any type
-//1 st type
-function render(doc: any){
-    console.log(doc);
+const person = Person = {
+    name : ""
+    age : 
+
+}
+
+
+// Type -> 
+
+// type Point = {
+//     x : number;
+//     y : number;
+// };
+
+// const point: Point = {
+//     x : 10,
+//     y: 16,
+// }
+
+
+interface Person {
+    name : string;
+    age?: number;
+}
+
+const ob1: Person = {
+
+}
+
+interface Users {
     
-}   
-
+}
