@@ -10,7 +10,7 @@ memcached.set('myKey', 'myValue', 3600, (err) => {
   } else {
     console.log('Data set in Memcache');
     
-   
+  //  fun
     memcached.get('myKey', (err, data) => {
       if (err) {
         console.error('Error getting data from Memcache:', err);
