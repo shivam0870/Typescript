@@ -16,3 +16,5 @@ console.log(answer);
 let newVar; //newvar can be number, boolean both
 newVar = true;
 console.log(newVar);
+let a = "something";
+console.log(a);

@@ -17,6 +17,15 @@ console.log(nameo);
 let answer = <number> 12; // More descriptive variable name
 console.log(answer);
 
+
 let newVar : number | boolean; //newvar can be number, boolean both
 newVar = true;
 console.log(newVar);
+
+//Arrays in TS
+
+//Type aliasis
+type strong = number | string;
+let a : strong = "something";
+console.log(a);
+
