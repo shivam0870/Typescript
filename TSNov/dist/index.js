@@ -18,3 +18,25 @@ newVar = true;
 console.log(newVar);
 let a = "something";
 console.log(a);
+let a1 = 23;
+let b1 = 45;
+const function1 = (a1, b1) => {
+    console.log(a1 + b1 + "asds");
+    return a1 + b1;
+};
+const result = function1(a1, b1);
+console.log(result);
+//Array defination is ts
+let arr = [1, 2, 3, 4, 5];
+arr.forEach((it) => {
+    console.log("The numbers in array are " + it);
+});
+// Most used syntax in array in typescript(used in generics too)
+let arr1 = [1, 2, 3, 4, 5];
+arr1.map((it) => {
+    console.log("The numbers in array1 are " + it);
+});
+let newarr = ["Shivam", "Singh", 324, 4];
+newarr.forEach((it) => {
+    console.log("Multiple value array" + it);
+});
