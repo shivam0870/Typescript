@@ -40,3 +40,20 @@ let newarr = ["Shivam", "Singh", 324, 4];
 newarr.forEach((it) => {
     console.log("Multiple value array" + it);
 });
+// let arr : Array <string> = [];
+//Objects in TS
+//one wat to declare the variables
+const obj1 = {
+    height: 12,
+    width: 21
+};
+const obj = {
+    age: 23,
+    name: "Shivam",
+    address: "Bengaluru"
+};
+const obj2 = {
+    age: 23,
+    name: "Shivam",
+};
+//We can use extends here too just as classes and objects in javascript 

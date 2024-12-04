@@ -61,3 +61,41 @@ newarr.forEach((it : number | string) => {
     console.log("Multiple value array"+it);
 })
 
+// let arr : Array <string> = [];
+//Objects in TS
+//one wat to declare the variables
+
+const obj1: {
+    height : number,
+    width : number
+} = {
+height : 12,
+width : 21
+}
+
+// Another way to declare
+
+type Obj = {
+    age : number,
+    name : string,
+    address ?: string //it means address is optinal
+}
+
+const obj : Obj = { 
+age : 23,
+name : "Shivam",
+address : "Bengaluru"
+}
+
+const obj2 : Obj = { 
+    age : 23,
+    name : "Shivam",
+    }
+
+    interface newobj {
+        name : string,
+        age : number,
+        gender : boolean
+    }
+
+ //We can use extends here too just as classes and objects in javascript 
