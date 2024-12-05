@@ -56,4 +56,11 @@ const obj2 = {
     age: 23,
     name: "Shivam",
 };
-//We can use extends here too just as classes and objects in javascript 
+const func = (n, m) => {
+    return n + n;
+};
+const fun22 = (n, m) => {
+    return n + m;
+};
+fun22(2, 3);
+console.log("Function returned " + fun22(2, 3));

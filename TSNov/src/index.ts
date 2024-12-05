@@ -99,3 +99,17 @@ const obj2 : Obj = {
     }
 
  //We can use extends here too just as classes and objects in javascript 
+
+ //Functions in ts 
+
+type FuncType = (n:number,m:number) => number;
+
+ const func = (n:number, m : number) => {
+return n+n
+ }
+
+ const fun22 : FuncType = (n,m) => {
+    return n+m;
+ }
+ fun22(2,3);
+ console.log("Function returned "+fun22(2,3));
