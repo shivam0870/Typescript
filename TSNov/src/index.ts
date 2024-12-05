@@ -113,3 +113,27 @@ return n+n
  }
  fun22(2,3);
  console.log("Function returned "+fun22(2,3));
+
+ //Functions with objects as arguments
+
+ const getData = (product : {name:string,price:number,stock:number}) => {
+    console.log(product);
+ }
+
+ console.log(getData({
+    name : "Shivam",
+    "price" : 23,
+    "stock" : 1
+ }))
+
+//never type 
+
+
+//this returns never                                                                 
+const errorHandler = () => {
+    throw new Error();
+}
+// this returns error 
+const errHandler = () => {
+    return new Error();
+}
