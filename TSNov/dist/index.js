@@ -449,4 +449,13 @@ const errorHandler = () => {
 const errHandler = () => {
     return new Error();
 };
-//Classess in JS
+//Classess in TS
+class Player {
+    constructor(height, weight) {
+        this.height = height;
+        this.weight = weight;
+    }
+}
+console.log("Classes------------------------>");
+const shivam = new Player(10, 12);
+console.log("Height is " + shivam.height + "cm and weight is " + shivam.weight + " kg");
