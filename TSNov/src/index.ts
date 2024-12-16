@@ -623,3 +623,43 @@ class Player {
 console.log("Classes------------------------>")
 const shivam = new Player(10,12);
 console.log("Height is "+shivam.height+ "cm and weight is "+shivam.weight+" kg");
+
+// type assertion
+
+// const btn = document.getElementById("btn") as HTMLElement;
+// const btn = <HTMLElement> document.getElementById
+
+const btn = document.getElementById("btn") as HTMLElement;
+btn.onclick = () => {
+    console.log("___")
+  alert('hi');
+  
+};
+
+const img = document.getElementById("imgs") as HTMLImageElement;
+img.src = "m"
+
+
+//generics in ts
+
+const funce = (n : number) : number => {
+    return n;
+}
+
+const answer0 = funce(10);
+// T - custom type
+const functionnew = <T>(n : T) : T => {
+    let text : T = n;
+    return n;
+}
+
+const ans1 = functionnew(23);
+const ans2 = functionnew("shivam");
+const ans3 = functionnew(true);
+
+// we cann 't assign different types to same variable like ans1. will show
+//all the methods of number similarly we can use all the methods of string and boolean in ans2 and 3
+
+const funcgen = <T> (n : T) : T => {
+return n;
+}
